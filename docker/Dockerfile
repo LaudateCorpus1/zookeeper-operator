@@ -12,7 +12,7 @@ FROM mcr.microsoft.com/openjdk/jdk:11-ubuntu
 RUN mkdir /zu
 COPY zu /zu
 WORKDIR /zu
-RUN ./gradlew --console=verbose --info shadowJar
+RUN ./gradlew shadowJar
 
 # use forked base zookeeper 3.7.1 docker image
 # that runs on openjdk-17
