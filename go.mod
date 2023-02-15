@@ -62,7 +62,7 @@ require (
 	github.com/operator-framework/api v0.10.7 // indirect
 	github.com/operator-framework/operator-registry v1.13.9 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
-	github.com/prometheus/client_golang v1.11.0 // indirect
+	github.com/prometheus/client_golang v1.11.1 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.26.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
